@@ -1,3 +1,61 @@
 body{
     background-color:rgba(168, 23, 96, 0.158);
 }
+.float-top {
+    color:blue;
+    background-color: crimson;
+    text-align: center;
+
+}
+.float-top h1 {
+    color: darkcyan;
+    border: darkcyan 1px solid;
+}
+.blocks {
+    width: 30%;
+    border: darkorange;
+    height: 300px;
+    float: left;
+    margin: 0 1.6% 0 1.6%;
+    margin-top:50px ;
+    text-align: center;
+
+
+}
+.blocks img {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+.blocks:hover{
+    border: orangered;
+    opacity: 0.6;
+}
+.kategorie {
+    text-align: center;
+    font-size: 50px;
+    color: darkslateblue;
+    text-decoration: underline;
+}
+.leva {
+    float: left;
+    width: 20%;
+    background-color: palegreen;
+    margin-top: 118px;
+    height: 1150px;
+}
+.leva p {
+    font-size: 14px;
+    font-weight: 400;
+}
+.leva :hover {
+    font-size: 18px;
+    font-weight: 800;
+}
+.prava {
+    float: right;
+    width: 80%;
+}
+#p {
+    color: rebeccapurple;
+}
